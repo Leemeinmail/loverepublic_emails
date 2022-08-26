@@ -1,0 +1,88 @@
+@@include("parts/head.html")
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#646464" style="width: 100%; background-color: #646464;">
+<tr>
+<td align="center" >
+
+<table width="675" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" style="width:675px; max-width: 675px; background-color: #FFFFFF;">
+
+	@@include("parts/header.html")
+
+	<tr class="first-section" style="background: #F2F2F2;" >
+		<td width="100%" style="padding:30px 56px 27px 56px; border-bottom: 1px solid #E0E0E0; border-top: 1px solid #E0E0E0;" >
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" >
+				<tr>
+					<td width="100%" style="padding: 0px 0 22px 0;" align="center" >
+						<p style="margin:0 0 0 0; line-height: 0; font-size: 0; padding-bottom: 10px;" ><span style="font-family: 'Arial'; font-weight: 400; font-size: 30px; line-height: 36px; text-align: center; letter-spacing: 3px; color: #000000;" >Ваш заказ не оплачен.</span></p>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" >
+				<tr>
+					<td style="padding-bottom: 30px;" >
+						<table width="100%" cellspacing="0" cellpadding="0" border="0" >
+							<tr>
+								<td width="58" ></td>
+								<td width="45" style="background-color: #FFFFFF;" >
+									<p style="display: inline-block; padding: 20px 14px; margin:0 0 0 0; font-size:0; line-height:0; text-align: center;" >
+										<img width="16px" height="16px" src="/img/bell.png" alt="&#128276;" style="font-family: Arial; font-size: 16px; font-weight: 400; line-height: 16px;">
+									</p>
+								</td>
+								<td width="2" ></td>
+								<td width="400" style="background-color: #FFFFFF;" >
+									<p style="margin:0 0 0 0; padding: 11px 19px 13px 15px; font-size:0; line-height:0;" ><span style="font-family: 'Arial'; font-weight: 400; font-size: 14px; line-height: 16px; text-align: center; letter-spacing: 0.57px; color: #000000;" >Напоминаем, заказ необходимо оплатить в течение<br> 30 минут, иначе он будет автоматически отменен.</span></p>
+								</td>
+								<td width="57" ></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" >
+						<p style="display: inline-block; margin: 0 0 0 0; line-height: 0; font-size: 0; padding: 12px 30px; border: 1px solid #000000; text-align: center;">
+							<a href="http://lr-mails.eclipseds.ru/" style="font-family: 'Arial'; font-weight: 400; font-size: 12px; line-height: 14px; letter-spacing: 0.56px; color: #000000; text-decoration: none;">
+								ОПЛАТИТЬ ЗАКАЗ
+							</a>
+						</p>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	@@include("parts/order-detail.html")
+
+	<tr class='order-items' >
+		<td style="padding:37px 56px 37px 56px" >
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #FFFFFF;" >
+				<tr>
+					<td style="padding-bottom: 27px;" >
+						<span style="font-family: 'Arial'; font-weight: 700; font-size: 14px; line-height: 16px;letter-spacing: 1.4px; text-transform: uppercase; color: #000000;" >
+							СОСТАВ ЗАКАЗА
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						@@include("parts/product-table.html")
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	@@include("parts/order-total.html")
+
+	@@include("parts/order-feedback.html")
+
+	@@include("parts/order-advants.html")
+
+	@@include("parts/footer.html")
+
+</table>
+		
+</td>
+</tr>
+</table>
+
+@@include("parts/email-end.html")

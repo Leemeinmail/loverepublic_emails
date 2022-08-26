@@ -77,7 +77,15 @@ body{
 			<p>
 				<label>Какие письма отправить</label>
 				<select multiple name='templates[]' required>
+					<option value='mail-1' >ОМНИ Заказ оформлен с оплатой</option>
+					<option value='mail-2' >ОМНИ Заказ оформлен оплата при получении</option>
+					<option value='mail-3' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ</option>
+					<option value='mail-4' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_НАПОМИНАНИЕ</option>
+					<option value='mail-5' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_ОПЛАТА</option>
+					<option value='mail-6' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_Отмена</option>
+					<option value='mail-7' >ОМНИ_Заказ собран и готов к выдаче</option>
 					<option value='mail-8' >ОМНИ Заказ собран и готов к выдаче неполный.</option>
+					<option value='mail-9' >ОМНИ_Заказ доставлен. Спасибо за покупку</option>
 				</select>
 			</p>
 
