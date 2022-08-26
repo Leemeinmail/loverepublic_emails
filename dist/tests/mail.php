@@ -77,7 +77,6 @@ body{
 			<p>
 				<label>Какие письма отправить</label>
 				<select multiple name='templates[]' required>
-					<option value='adaptive' >Пример адаптивов</option>
 					<option value='mail-8' >ОМНИ Заказ собран и готов к выдаче неполный.</option>
 				</select>
 			</p>
