@@ -23,7 +23,7 @@
 				<tr>
 					<td width="230" valign="top">
 						<p style="margin:0 0 0 0; line-height: 0; font-size: 0; padding-bottom: 12px;" ><span style="font-family: 'Arial'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 18px; letter-spacing: 1.4px; text-transform: uppercase; color: #000000;" >Номер заказа</span></p>
-						<p style="margin:0 0 0 0; line-height: 0; font-size: 0; display: inline-block; padding:10px 31px 10px 31px; border: 1px solid #000000; text-align: center;" ><span style="font-family: 'Arial'; font-weight: 400; font-size: 16px; line-height: 18px; text-align: center; letter-spacing: 1px; color: #000000;" >#ORDER_ID#</span></p>
+						<p class='order-number-wrapper' style="margin:0 0 0 0; line-height: 0; font-size: 0; display: inline-block; padding:10px 31px 10px 31px; border: 1px solid #000000; text-align: center; text-decoration:none; font-family: 'Arial'; font-weight: 400; font-size: 16px; line-height: 18px; text-align: center; letter-spacing: 1px; color: #000000;" ><span style="font-family: 'Arial'; font-weight: 400; font-size: 16px; line-height: 18px; text-align: center; letter-spacing: 1px; color: #000000;" >#ORDER_ID#</span></p>
 						<p style="margin:0 0 0 0; line-height: 0; font-size: 0; padding-top: 36px;" ><span style="font-family: 'Arial'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 20px; letter-spacing: 1.4px; text-transform: uppercase; color: #000000;" >ЗАКАЗ БУДЕТ<br>ХРАНИТЬСЯ ДО #STORAGE#</span></p>
 					</td>
 					<td width="143" ></td>
@@ -32,7 +32,7 @@
 							QR-код для получения<br> 
 							заказа на кассе
 						</span></p>
-						<p style="margin:0 0 0 0; line-height: 0; font-size: 0; text-align: right;" ><img width="98px" height="98px" src="http://lr-mails.eclipseds.ru/img/qr-order-not-full.png" alt="qr-code" style="display: inline-block; font-family: 'Arial'; font-weight: 400; text-align: center; line-height: 100px; border:1px solid #000;"></p>
+						<p style="margin:0 0 0 0; line-height: 0; font-size: 0; text-align: right;" ><img width="98px" height="98px" src="http://lr-mails.eclipseds.ru/img/qr-order-not-full.png" alt="qr-code" style="display: inline-block; font-family: 'Arial'; font-weight: 400; text-align: center; line-height: 100px;"></p>
 					</td>
 				</tr>
 			</table>
@@ -72,7 +72,7 @@
 				</tr>
 				<tr>
 					<td>
-						@@include("parts/product-table.html")
+						@@include("parts/product-table-not-available.html")
 					</td>
 				</tr>
 			</table>
