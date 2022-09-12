@@ -1,0 +1,63 @@
+@@include("parts/head.html")
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#646464" style="width: 100%; background-color: #FFFFFF;">
+<tr>
+<td align="center" >
+
+<table width="675" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" style="width:675px; max-width: 675px; background-color: #FFFFFF; border: 1px solid #E0E0E0;">
+
+	@@include("parts/header.html")
+
+	<tr class="first-section" style="background: #F2F2F2;" >
+		<td width="100%" style="padding:31px 56px 33px 56px; border-bottom: 1px solid #E0E0E0; border-top: 1px solid #E0E0E0;" >
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" >
+				<tr>
+					<td width="100%" align="center" >
+						<span style="font-family: 'Arial'; font-weight: 400; font-size: 30px; line-height: 36px; text-align: center; letter-spacing: 3px; color: #000000;" >Здравствуйте</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" style="padding: 0px 0 32px 0;" align="center" >
+						<span style="font-family: 'Arial'; font-weight: 400; font-size: 30px; line-height: 36px; text-align: center; letter-spacing: 3px; color: #000000;" >Ваш заказ отменен.</span>
+					</td>
+				</tr>
+			</table>
+			
+			@@include("parts/order-number.html")
+		</td>
+	</tr>
+
+	<tr class='order-items' >
+		<td style="padding:47px 56px 0 56px" >
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #FFFFFF;" >
+				<tr>
+					<td style="padding-bottom: 27px;" >
+						<span style="font-family: 'Arial'; font-weight: 700; font-size: 14px; line-height: 16px;letter-spacing: 1.4px; text-transform: uppercase; color: #000000;" >
+							СОСТАВ ЗАКАЗА
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						@@include("parts/product-table.html")
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	@@include("parts/order-total-no-pay.html")
+
+	@@include("parts/order-feedback.html")
+
+	@@include("parts/order-advants.html")
+
+	@@include("parts/footer.html")
+
+</table>
+		
+</td>
+</tr>
+</table>
+
+@@include("parts/email-end.html")
