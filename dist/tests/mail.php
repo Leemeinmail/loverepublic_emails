@@ -77,15 +77,27 @@ body{
 			<p>
 				<label>Какие письма отправить</label>
 				<select multiple name='templates[]' required>
-					<option value='mail-1' >ОМНИ Заказ оформлен с оплатой</option>
-					<option value='mail-2' >ОМНИ Заказ оформлен оплата при получении</option>
-					<option value='mail-3' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ</option>
-					<option value='mail-4' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_НАПОМИНАНИЕ</option>
-					<option value='mail-5' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_ОПЛАТА</option>
-					<option value='mail-6' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_Отмена</option>
-					<option value='mail-7' >ОМНИ_Заказ собран и готов к выдаче</option>
-					<option value='mail-8' >ОМНИ Заказ собран и готов к выдаче неполный.</option>
-					<option value='mail-9' >ОМНИ_Заказ доставлен. Спасибо за покупку</option>
+					<option value='omni_zakaz_oformlen_s_oplatoj' >ОМНИ Заказ оформлен с оплатой</option>
+					<option value='omni_zakaz_oformlen_oplata_pri_poluchenii' >ОМНИ Заказ оформлен оплата при получении</option>
+					<option value='omni_zakaz_oformlen_bez_oplaty' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ</option>
+					<option value='omni_zakaz_oformlen_bez_oplaty_napominanie' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_НАПОМИНАНИЕ</option>
+					<option value='omni_zakaz_oformlen_bez_oplaty_oplata' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_ОПЛАТА</option>
+					<option value='omni_zakaz_oformlen_bez_oplaty_otmena' >ОМНИ_Заказ оформлен_БЕЗ ОПЛАТЫ_Отмена</option>
+					<option value='omni_zakaz_sobran_i_gotov_k_vydache' >ОМНИ_Заказ собран и готов к выдаче</option>
+					<option value='omni_zakaz_sobran_i_gotov_k_vydache_nepolnyj' >ОМНИ Заказ собран и готов к выдаче неполный.</option>
+					<option value='onlajn_zakaz_dostavlen' >ОМНИ_Заказ доставлен. Спасибо за покупку</option>
+
+					<option value='onlajn_zakaz_oformlen_s_oplatoj' >Онлайн_Заказ оформлен_с оплатой.</option>
+					<option value='onlajn_zakaz_sobran_i_gotov_k_vydache' >Онлайн_Заказ собран и готов к выдаче.</option>
+					<option value='onlajn_zakaz_sobran_i_gotov_k_vydache_nepolnyj' >Онлайн_Заказ собран и готов к выдаче_неполный.</option>
+					<option value='onlajn_zakaz_dostavlen_spasibo_za_pokupku' >Онлайн_Заказ доставлен. Спасибо за покупку</option>
+					<option value='onlajn_zakaz_otmenen' >Онлайн_Заказ отменен</option>
+					<option value='onlajn_zakaz_oformlen_bez_oplaty' >Онлайн_Заказ оформлен_БЕЗ ОПЛАТЫ</option>
+					<option value='onlajn_zakaz_oformlen_bez_oplaty_napominanie' >Онлайн_Заказ оформлен_БЕЗ ОПЛАТЫ_НАПОМИНАНИЕ</option>
+					<option value='onlajn_zakaz_oformlen_bez_oplaty_oplata' >Онлайн_Заказ оформлен_БЕЗ ОПЛАТЫ_ОПЛАТА</option>
+					<option value='onlajn_zakaz_oformlen_bez_oplaty_otmena' >Онлайн_Заказ оформлен_БЕЗ ОПЛАТЫ_Отмена</option>
+					<option value='onlajn_zakaz_gotov_k_vydache' >Онлайн_Заказ готов к выдаче</option>
+					<option value='onlajn_zakaz_dostavlen' >Онлайн_Заказ доставлен</option>
 				</select>
 			</p>
 
