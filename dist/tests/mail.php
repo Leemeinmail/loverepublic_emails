@@ -98,6 +98,7 @@ body{
 					<option value='onlajn_zakaz_oformlen_bez_oplaty_otmena' >Онлайн_Заказ оформлен_БЕЗ ОПЛАТЫ_Отмена</option>
 					<option value='onlajn_zakaz_gotov_k_vydache' >Онлайн_Заказ готов к выдаче</option>
 					<option value='onlajn_zakaz_dostavlen' >Онлайн_Заказ доставлен</option>
+					<option value='sertificat' >Сертификат</option>
 				</select>
 			</p>
 
