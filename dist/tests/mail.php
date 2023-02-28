@@ -99,6 +99,7 @@ body{
 					<option value='onlajn_zakaz_gotov_k_vydache' >Онлайн_Заказ готов к выдаче</option>
 					<option value='onlajn_zakaz_dostavlen' >Онлайн_Заказ доставлен</option>
 					<option value='sertificat' >Сертификат</option>
+					<option value='sertificat-kyplen' >Сертификат куплен</option>
 				</select>
 			</p>
 
